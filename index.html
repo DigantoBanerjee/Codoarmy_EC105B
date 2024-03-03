@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MEDIcure</title>
+    <style>
+        .nav__logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav__logo img {
+            width: 50px; /* Adjust size as needed */
+            margin-right: 10px; /* Add some spacing between the logo and text */
+        }
+        
+        .additional-content {
+            padding: 2rem;
+            text-align: center;
+            background-color: #24ad74; /* Added background color */
+            margin-top: 2rem; /* Added margin top */
+        }
+        
+        .additional-image {
+            margin-top: 2rem;
+            margin-bottom: 20px;
+            height: 300px;
+            max-width: 60%; /* Decreased max-width */
+            border-radius: 10%; /* Make images circular */
+        }
+        .additional-image-2 {
+            margin-top: 2rem;
+            width: 450px;
+            height: 300px;
+            /* object-fit: cover; */
+            /* max-width: 60%; Decreased max-width */
+            border-radius: 10%; /* Make images circular */
+        }
+
+        /* Adjust the size of the second additional image */
+        .additional-image:last-child {
+            max-width: 40%; /* Decrease the size */
+        }
+
+        .additional-content h2 {
+            margin-bottom: 1rem; /* Add space after the heading */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav__logo">
+                <img src="./plus.jpg" alt="MEDIcare Logo">
+                <h1>MEDIcure</h1>
+            </div>
+            <ul class="nav__links">
+                <li class="link"><a href="#">Home</a></li>
+                <li class="link"><a href="#">About Us</a></li>
+                <li class="link"><a href="#">Insurance</a></li>
+                <li class="link"><a href="#">Services</a></li>
+                <li class="link"><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn">Register Now</button>
+        </nav>
+        <header class="header">
+            <div class="content">
+                <h1><span>Get Quick</span><br />Medical Services</h1>
+                <p>
+                    Medicure is a value-based pharmaceutical company committed to the development and
+                    commercialization of innovative and affordable therapeutics for the Indian market.
+                    Our vision is to become a leading pharmaceutical company within India, offering a
+                    growing portfolio of products that improve patients' lives.
+                </p>
+                <button class="btn">Get Services</button>
+            </div>
+            <div class="image">
+                <span class="image__bg"></span>
+                <img src="./doctor.jpg" alt="header image" />
+                <div class="image__content image__content__1">
+                    <span><i class="ri-user-3-line"></i></span>
+                    <div class="details">
+                        <h4>1520+</h4>
+                        <p>Active Clients</p>
+                    </div>
+                </div>
+                <div class="image__content image__content__2">
+                    <ul>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Get 20% off on every 1st month
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Expert Doctors
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Additional Content -->
+        <div class="additional-content">
+            <h1 style="margin-bottom: 20px;">THE MEDIcure CLINICS</h1>
+            <p style="text-align: justify; font-weight: 600; line-height: 20px;">Due to the prevailing COVID scenario, appointments are subject to confirmation. Please share your details with us.
+	       We will call back and confirm your appointment..</p>
+            <img src="./hosp.jpg" class="additional-image" alt="Additional Image 1">
+            <p style="text-align: justify; font-weight: 600; line-height: 25px;">The Virtual Wellness Clinic offers a seamless avenue for individuals to access quality healthcare from the comfort of their own homes. Through cutting-edge telemedicine technology, patients can consult with experienced medical professionals, receive personalized treatment plans, and access a wide range of health services remotely. Whether seeking routine check-ups, managing chronic conditions, or addressing urgent health concerns, the clinic's dedicated team is committed to delivering timely and comprehensive care, ensuring patients can prioritize their well-being without compromising convenience or safety. With flexible appointment scheduling and secure online platforms, the Virtual Wellness Clinic aims to revolutionize the healthcare experience, empowering individuals to take control of their health journey anytime, anywhere.</p>
+            <img src="./hosp2.jpg" class="additional-image-2" alt="Additional Image 2">
+        </div>
+    </div>
+</body>
+
+</html>
